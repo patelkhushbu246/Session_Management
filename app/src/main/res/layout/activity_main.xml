@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:background="@color/dark_brown"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_margin="15dp"
+            android:text="SignUp"
+            android:textColor="@color/black"
+            style="@style/Widget.AppCompat.TextView"
+            android:textSize="25sp"
+            android:id="@+id/btnSignup_main"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:layout_marginTop="20dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            style="@style/Widget.AppCompat.TextView"
+            android:textSize="25sp"
+            android:id="@+id/btnlogin_main"/>
+    </LinearLayout>
+
+</RelativeLayout>
